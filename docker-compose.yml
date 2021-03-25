@@ -1,0 +1,64 @@
+version: '1'
+services:
+#   container for mysql
+  databasemysql:
+    image: mysql:8.0.17
+    restart: always
+    ports:
+      - "3306:3306"
+    container_name: mysql-doc
+    network_mode: host
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: bookspot
+
+#    container for mongo
+  databasemongo:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    container_name: mongo-con
+    network_mode: host
+    environment:
+      MONGO_DATABASE: bookspot
+
+#   container for JPA service
+  JPAService:
+      build:
+        dockerfile: Dockerfile
+        context:  ./JPAService
+      container_name: JPAService-docker
+      network_mode: host
+      restart: always
+      ports:
+       - "8080:8080"
+      depends_on:
+        - databasemysql
+        
+#   container for MongoDb service
+  MongoDBService:
+      build: 
+        dockerfile: Dockerfile
+        context:  ./MongoDBService
+      container_name: MongoDBService-docker
+      network_mode: host
+      restart: always
+      ports:
+       - "8081:8081"
+      depends_on:
+        - databasemongo
+
+# container for front end 
+  angular-frontend:
+    build:
+       dockerfile: Dockerfile
+       context:  ./bookspotAngular
+    container_name: angular-docker
+    network_mode: host
+    restart: always
+    ports:
+       - "4200:4200"
+    

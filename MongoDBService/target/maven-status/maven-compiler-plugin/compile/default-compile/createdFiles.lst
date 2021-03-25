@@ -1,0 +1,7 @@
+com\bookspot\repository\RecommendRepository.class
+com\bookspot\controller\RecommendController.class
+com\bookspot\controller\FavouriteController.class
+com\bookspot\SpringMongodbBookspotApplication.class
+com\bookspot\model\Favourite.class
+com\bookspot\repository\FavouriteRepository.class
+com\bookspot\model\Recommend.class

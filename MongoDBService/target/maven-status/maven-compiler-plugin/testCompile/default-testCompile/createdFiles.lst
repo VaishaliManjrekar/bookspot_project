@@ -1,0 +1,3 @@
+com\bookspot\SpringMongodbBookspotApplicationTests.class
+com\bookspot\TestFavouriteController\FavouriteControllerTest.class
+com\bookspot\TestRecommendController\RecommendControllerTest.class

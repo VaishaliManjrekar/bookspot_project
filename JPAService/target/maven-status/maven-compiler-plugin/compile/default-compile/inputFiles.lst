@@ -1,0 +1,12 @@
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\controller\UserController.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\model\User.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\service\EmailService.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\exception\UserNotFoundException.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\model\Review.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\service\UserService.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\controller\ReviewController.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\repository\ReviewRepository.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\SpringBootJpaBookspotApplication.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\jwtfilter\AuthFilter.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\repository\UserRepository.java
+C:\Users\VaishaliManjrekar\Documents\Spring_Maven_workspace\BookspotMicroservice\JPAService\src\main\java\com\bookspot\exception\UserExistsException.java
